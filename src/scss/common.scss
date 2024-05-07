@@ -1,0 +1,77 @@
+// Заголовки, общие БЭМ блоки и прочее...
+.logo {
+   display: flex;
+   align-items: center;
+   gap: toRem(14);
+   font-size: toRem(30);
+   font-weight: 700;
+   line-height: 116.666667%; /* 35/30 */
+   color: $blueColor;
+   // .logo__italic
+   &__italic {
+      font-style: italic;
+   }
+   span {
+      font-weight: 700;
+   }
+}
+//========================================================================================================================================================
+.title {
+   font-size: toRem(36);
+   font-weight: 700;
+   line-height: 116.666667%; /* 42/36 */
+   color: $primaryColor;
+   &--center {
+      text-align: center;
+   }
+   &--white {
+      color: $whiteColor;
+   }
+}
+//========================================================================================================================================================
+.swiper-button-prev {
+   &::before {
+      font-size: toRem(26);
+      transition: transform 0.3s;
+   }
+   @media (any-hover: hover) {
+      &:hover {
+         &::before {
+            transform: translate(-10px, 0);
+         }
+      }
+   }
+   &.swiper-button-disabled {
+      @media (any-hover: hover) {
+         &:hover {
+            &::before {
+               transform: translate(0, 0);
+            }
+         }
+      }
+   }
+}
+.swiper-button-next {
+   flex-direction: row-reverse;
+   &::before {
+      font-size: toRem(26);
+      transform: rotate(-180deg);
+      transition: transform 0.3s;
+   }
+   @media (any-hover: hover) {
+      &:hover {
+         &::before {
+            transform: rotate(-180deg) translate(-10px, 0);
+         }
+      }
+   }
+   &.swiper-button-disabled {
+      @media (any-hover: hover) {
+         &:hover {
+            &::before {
+               transform: rotate(-180deg) translate(0, 0);
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,31 @@
+.header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: $whiteColor;
+   z-index: 100;
+   transition: box-shadow 0.5s;
+   &._header-scroll {
+      position: fixed;
+      background-color: $whiteColor;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+   }
+   // .header__container
+   &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: toRem(80);
+   }
+   // .header__logo
+   &__logo {
+      z-index: 10;
+      @media (max-width: $mobile) {
+         background-color: $whiteColor;
+      }
+   }
+   // .header__menu
+   &__menu {
+   }
+}

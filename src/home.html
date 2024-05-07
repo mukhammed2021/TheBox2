@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="en">
+   @@include('html/_head.htm',{ "title":"TheBox" })
+   <body>
+      <div class="wrapper">
+         @@include('html/_header.htm',{})
+         <main class="page">
+            <section class="hero">
+               <div class="hero__container">
+                  <h1 class="hero__title">Building things is our mission.</h1>
+                  <div class="hero__body">
+                     <div class="hero__slider swiper">
+                        <div class="hero__wrapper swiper-wrapper">
+                           <div class="hero__slide slide-hero swiper-slide">
+                              <img src="@img/hero/hero-bg.jpeg" alt="image background" class="slide-hero__image-bg" />
+                              <div class="slide-hero__item">
+                                 <div class="slide-hero__title">Feature Projects</div>
+                                 <div class="slide-hero__text">The National University of Architecture</div>
+                              </div>
+                           </div>
+                           <div class="hero__slide slide-hero swiper-slide">
+                              <img src="@img/hero/hero-bg.jpeg" alt="image background" class="slide-hero__image-bg" />
+                              <div class="slide-hero__item">
+                                 <div class="slide-hero__title">Feature Projects</div>
+                                 <div class="slide-hero__text">The National University of Architecture</div>
+                              </div>
+                           </div>
+                           <div class="hero__slide slide-hero swiper-slide">
+                              <img src="@img/hero/hero-bg.jpeg" alt="image background" class="slide-hero__image-bg" />
+                              <div class="slide-hero__item">
+                                 <div class="slide-hero__title">Feature Projects</div>
+                                 <div class="slide-hero__text">The National University of Architecture</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="hero__actions">
+                           <button type="button" class="hero__button swiper-button-prev _icon-arrow">Back</button>
+                           <button type="button" class="hero__button swiper-button-next _icon-arrow">Next</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="reputation">
+               <div class="reputation__container">
+                  <h2 class="reputation__title title title--center">Our Reputation</h2>
+                  <div class="reputation__items">
+                     <article class="reputation__item item-reputation">
+                        <div class="item-reputation__img">
+                           <img src="@img/reputation/headphone.svg" alt="Image" />
+                        </div>
+                        <h3 class="item-reputation__title">Best Services</h3>
+                        <div class="item-reputation__text">
+                           Nullam senectus porttitor in eget. Eget rutrum leo interdum.
+                        </div>
+                     </article>
+                     <article class="reputation__item item-reputation">
+                        <div class="item-reputation__img">
+                           <img src="@img/reputation/headphone.svg" alt="Image" />
+                        </div>
+                        <h3 class="item-reputation__title">Best Teams</h3>
+                        <div class="item-reputation__text">Cursus semper tellus volutpat aliquet lacus.</div>
+                     </article>
+                     <article class="reputation__item item-reputation">
+                        <div class="item-reputation__img">
+                           <img src="@img/reputation/design.svg" alt="Image" />
+                        </div>
+                        <h3 class="item-reputation__title">Best Designs</h3>
+                        <div class="item-reputation__text">Ultricies at ipsum nunc, tristique nam lectus.</div>
+                     </article>
+                  </div>
+               </div>
+            </section>
+            <section class="about">
+               <div class="about__container">
+                  <div class="about__body">
+                     <img class="about__image ibg" src="@img/about/image.jpeg" alt="Image" />
+                     <div class="about__content">
+                        <h2 class="about__title title title--white">About us</h2>
+                        <div class="about__text">
+                           <p>
+                              For more than 30 years we have been delivering world-class construction and we've built
+                              many lasting relationships along the way.
+                           </p>
+                           <p>
+                              We've matured into an industry leader and trusted resource for those seeking quality,
+                              innovation and reliability when building in the U.S.
+                           </p>
+                        </div>
+                        <a href="#" class="about__button button button--white">More on Our History</a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="services">
+               <div class="services__container">
+                  <h2 class="services__title title title--center">Services</h2>
+                  <div class="services__items">
+                     <div class="services__item item-services">
+                        <div class="item-services__image">
+                           <img src="@img/services/01.svg" alt="Construction" />
+                        </div>
+                        <div class="item-services__text">Construction</div>
+                     </div>
+                     <div class="services__item item-services item-services--blue">
+                        <div class="item-services__image">
+                           <img src="@img/services/02.svg" alt="Renovation" />
+                        </div>
+                        <div class="item-services__text item-services__text--white">Renovation</div>
+                     </div>
+                     <div class="services__item item-services">
+                        <div class="item-services__image">
+                           <img src="@img/services/03.svg" alt="Consultation" />
+                        </div>
+                        <div class="item-services__text">Consultation</div>
+                     </div>
+                     <div class="services__item item-services item-services--blue">
+                        <div class="item-services__image">
+                           <img src="@img/services/04.svg" alt="Repair Services" />
+                        </div>
+                        <div class="item-services__text item-services__text--white">Repair Services</div>
+                     </div>
+                     <div class="services__item item-services">
+                        <div class="item-services__image">
+                           <img src="@img/services/05.svg" alt="Architecture" />
+                        </div>
+                        <div class="item-services__text">Architecture</div>
+                     </div>
+                     <div class="services__item item-services item-services--blue">
+                        <div class="item-services__image">
+                           <img src="@img/services/06.svg" alt="Electric" />
+                        </div>
+                        <div class="item-services__text item-services__text--white">Electric</div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="experience">
+               <div class="experience__container">
+                  <div class="experience__wrapper">
+                     <div class="experience__body">
+                        <div class="experience__items">
+                           <div class="experience__item experience__item--1 item-experience">
+                              <div data-watch data-watch-once class="item-experience__body">
+                                 <img
+                                    class="item-experience__image item-experience__image--1"
+                                    src="@img/experience/01.png"
+                                    alt="Image"
+                                 />
+                                 <div data-digits-counter class="item-experience__number">84</div>
+                                 <div class="item-experience__text">Happy Clients</div>
+                              </div>
+                           </div>
+                           <div class="experience__item experience__item--2 item-experience">
+                              <div data-watch data-watch-once class="item-experience__body">
+                                 <img
+                                    class="item-experience__image item-experience__image--2"
+                                    src="@img/experience/02.png"
+                                    alt="Image"
+                                 />
+                                 <div data-digits-counter class="item-experience__number">123</div>
+                                 <div class="item-experience__text">Projects Completed</div>
+                              </div>
+                           </div>
+                           <div class="experience__item experience__item--3 item-experience">
+                              <div data-watch data-watch-once class="item-experience__body">
+                                 <img
+                                    class="item-experience__image item-experience__image--3"
+                                    src="@img/experience/03.png"
+                                    alt="Image"
+                                 />
+                                 <div data-digits-counter class="item-experience__number">37</div>
+                                 <div class="item-experience__text">Awards Win</div>
+                              </div>
+                           </div>
+                           <div class="experience__item experience__item--4 item-experience">
+                              <div data-watch data-watch-once class="item-experience__body">
+                                 <img
+                                    class="item-experience__image item-experience__image--4"
+                                    src="@img/experience/04.png"
+                                    alt="Image"
+                                 />
+                                 <div data-digits-counter class="item-experience__number">30</div>
+                                 <div class="item-experience__text">Years in Business</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="experience__content">
+                        <h2 class="experience__title">30 Years Experience</h2>
+                        <div class="experience__text">
+                           Our company has been the leading provided construction services to clients throughout the USA
+                           since 1988.
+                        </div>
+                        <a href="#" class="experience__button button">Contact Us</a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="consultation">
+               <div class="consultation__container">
+                  <div class="consultation__wrapper">
+                     <div class="consultation__content">
+                        <h2 class="consultation__title title title--white">
+                           Free consultation with exceptional quality
+                        </h2>
+                        <div class="consultation__text">
+                           Just one call away: <a href="tel:+8411022703">+84 1102 2703</a>
+                        </div>
+                     </div>
+                     <div class="consultation__action">
+                        <a href="#" class="consultation__button button button--transparent">Get your consultation</a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="projects">
+               <div class="projects__container">
+                  <h2 class="projects__title title">Projects</h2>
+                  <div class="projects__wrapper">
+                     <div data-tabs class="tabs">
+                        <nav data-tabs-titles class="tabs__navigation">
+                           <button type="button" class="tabs__title _tab-active">All</button>
+                           <button type="button" class="tabs__title">Commercial</button>
+                           <button type="button" class="tabs__title">Residential</button>
+                           <button type="button" class="tabs__title">Other</button>
+                        </nav>
+                        <div data-tabs-body class="tabs__content">
+                           <div class="tabs__body">
+                              <div class="tabs__slider swiper">
+                                 <div class="tabs__wrapper swiper-wrapper">
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="tabs__actions">
+                                    <div class="tabs__pagination swiper-pagination"></div>
+                                    <div class="tabs__buttons">
+                                       <button type="button" class="tabs__button swiper-button-prev _icon-arrow">
+                                          Back
+                                       </button>
+                                       <button type="button" class="tabs__button swiper-button-next _icon-arrow">
+                                          Next
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tabs__body">
+                              <div class="tabs__slider swiper">
+                                 <div class="tabs__wrapper swiper-wrapper">
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="tabs__actions">
+                                    <div class="tabs__pagination swiper-pagination"></div>
+                                    <div class="tabs__buttons">
+                                       <button type="button" class="tabs__button swiper-button-prev _icon-arrow">
+                                          Back
+                                       </button>
+                                       <button type="button" class="tabs__button swiper-button-next _icon-arrow">
+                                          Next
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tabs__body">
+                              <div class="tabs__slider swiper">
+                                 <div class="tabs__wrapper swiper-wrapper">
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="tabs__actions">
+                                    <div class="tabs__pagination swiper-pagination"></div>
+                                    <div class="tabs__buttons">
+                                       <button type="button" class="tabs__button swiper-button-prev _icon-arrow">
+                                          Back
+                                       </button>
+                                       <button type="button" class="tabs__button swiper-button-next _icon-arrow">
+                                          Next
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tabs__body">
+                              <div class="tabs__slider swiper">
+                                 <div class="tabs__wrapper swiper-wrapper">
+                                    <div class="tabs__slide swiper-slide">
+                                       <div class="tabs__items">
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/01.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wildstone Infra Hotel</a></h3>
+                                                <div class="item-tabs__text">2715 Ash Dr. San Jose, South Dakota</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/02.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Wish Stone Building</a></h3>
+                                                <div class="item-tabs__text">
+                                                   2972 Westheimer Rd. Santa Ana, Illinois
+                                                </div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/03.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Mr. Parkinston's House</a></h3>
+                                                <div class="item-tabs__text">3517 W. Gray St. Utica, Pennsylvania</div>
+                                             </div>
+                                          </article>
+                                          <article class="tabs__item item-tabs">
+                                             <a href="#" class="item-tabs__img-wrapper">
+                                                <img
+                                                   class="item-tabs__image ibg"
+                                                   src="@img/projects/04.jpeg"
+                                                   alt="Wildstone Infra Hotel"
+                                                />
+                                             </a>
+                                             <div class="item-tabs__content">
+                                                <h3 class="item-tabs__title"><a href="#">Oregano Height</a></h3>
+                                                <div class="item-tabs__text">2464 Royal Ln. Mesa, New Jersey</div>
+                                             </div>
+                                          </article>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="tabs__actions">
+                                    <div class="tabs__pagination swiper-pagination"></div>
+                                    <div class="tabs__buttons">
+                                       <button type="button" class="tabs__button swiper-button-prev _icon-arrow">
+                                          Back
+                                       </button>
+                                       <button type="button" class="tabs__button swiper-button-next _icon-arrow">
+                                          Next
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="service">
+               <div class="service__container">
+                  <div class="service__header">
+                     <h2 class="service__title title title--center">What can us do for you?</h2>
+                     <div class="service__text">
+                        We are ready to work on a project of any complexity, whether it's commercial or residential.
+                     </div>
+                  </div>
+                  <form action="#" class="service__form form-service">
+                     <div class="form-service__body">
+                        <div class="form-service__line">
+                           <div class="form-service__item">
+                              <input
+                                 id="name"
+                                 autocomplete="off"
+                                 type="text"
+                                 name="form[]"
+                                 required
+                                 class="form-service__input input"
+                              />
+                              <label for="name" class="form-service__label">Your Name</label>
+                           </div>
+                           <div class="form-service__item">
+                              <input
+                                 id="email"
+                                 autocomplete="off"
+                                 type="text"
+                                 name="form[]"
+                                 required
+                                 class="form-service__input input"
+                              />
+                              <label for="email" class="form-service__label">Email</label>
+                           </div>
+                        </div>
+                        <div class="form-service__line">
+                           <select name="form[]" data-class-modif="form">
+                              <option value="1" selected>Reason for Contacting</option>
+                              <option value="2">Reason 1</option>
+                              <option value="3">Reason 2</option>
+                              <option value="4">Reason 3</option>
+                           </select>
+                           <div class="form-service__item">
+                              <input
+                                 id="phone"
+                                 autocomplete="off"
+                                 type="number"
+                                 name="form[]"
+                                 placeholder="Phone"
+                                 class="form-service__input input"
+                              />
+                           </div>
+                        </div>
+                        <div class="form-service__line">
+                           <textarea
+                              autocomplete="off"
+                              name="form[]"
+                              placeholder="Message"
+                              class="form-service__textarea input"
+                           ></textarea>
+                        </div>
+                     </div>
+                     <p class="form-service__required">indicates a required field</p>
+                     <div class="form-service__btn">
+                        <button type="submit" class="form-service__button button">Submit</button>
+                     </div>
+                  </form>
+               </div>
+            </section>
+         </main>
+         @@include('html/_footer.htm',{})
+      </div>
+      @@include('html/_js.htm',{})
+   </body>
+</html>
